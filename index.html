@@ -9,30 +9,17 @@
         </header>
         <div class="list">
             <input type="text" placeholder="Product name..." name="product_name">
-            <input type="text" placeholder="Product price..." name="product_price">
+            <input type="number" placeholder="Product price..." name="product_price" step="0.01" min="0.00">
             <input type="submit" name="action" value="Submit">
         </div>
         <div class="product-list">
-            <div class="product-list-single">
-                <h3>Redbull</h3>
-                <h3 class="product-price"><span>R$20,00</span></h3>
-            </div>
-            <div class="product-list-single">
-                <h3>Redbull</h3>
-                <h3 class="product-price"><span>R$20,00</span></h3>
-            </div>
-            <div class="product-list-single">
-                <h3>Redbull</h3>
-                <h3 class="product-price"><span>R$20,00</span></h3>
-            </div>
-            <div class="product-list-single">
-                <h3>Redbull</h3>
-                <h3 class="product-price"><span>R$20,00</span></h3>
-            </div>
+            
         </div>
         <div class="product-total">
-            <h1>Total: R$ 100</h1>
+            <h1>Total: $0</h1>
+            <button name="clear"></button>
         </div>
+        
     </body>
     <script src="script.js"></script>
 </html>
