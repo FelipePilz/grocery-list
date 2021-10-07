@@ -1,10 +1,38 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <title>Store list</title>
+        <title>Grocery list</title>
     </head>
     <body>
-        
+        <header>
+            <h2>Grocery List</h2>
+        </header>
+        <div class="list">
+            <input type="text" placeholder="Product name..." name="product_name">
+            <input type="text" placeholder="Product value..." name="product_value">
+            <input type="submit" name="action" value="Submit">
+        </div>
+        <div class="product-list">
+            <div class="product-list-single">
+                <h3>Redbull</h3>
+                <h3 class="product-price"><span>R$20,00</span></h3>
+            </div>
+            <div class="product-list-single">
+                <h3>Redbull</h3>
+                <h3 class="product-price"><span>R$20,00</span></h3>
+            </div>
+            <div class="product-list-single">
+                <h3>Redbull</h3>
+                <h3 class="product-price"><span>R$20,00</span></h3>
+            </div>
+            <div class="product-list-single">
+                <h3>Redbull</h3>
+                <h3 class="product-price"><span>R$20,00</span></h3>
+            </div>
+        </div>
+        <div class="product-total">
+            <h1>Total: R$ 100</h1>
+        </div>
     </body>
     <script src="script.js"></script>
 </html>
